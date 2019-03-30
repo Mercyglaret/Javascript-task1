@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<style>
+	.border{
+		border-width: 0px 0px 2px 0px;
+		outline: none;
+		border-color: green;
+
+	}
+	.back{
+		background-color: #f7f0f0;
+	}
+	h4,h3{
+		color: #6f0b82;
+	}
+	.bold{
+		font-weight: bolder;
+	}
+	.button{
+		color: #f7f0f0;
+		background-color: #6f0b82;
+        width: 150px;
+        height: 35px;
+	}
+	.button:hover{
+		color: #f7f0f0;
+
+	}
+
+</style>
+<body>
+<div class="container back">
+	<div class="row">
+		<div class="col-lg-3">
+		</div>
+		<div class="col-lg-6">
+			<form style="width:100%;">
+						<h3  class="text-center bold">DETAILS</h3>
+
+				<div class="row">
+					<div class="col-lg-3">
+						<h4 class="bold">Name:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="text" class="form-control border" id="name" placeholder="Name" name="name" >	
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-3">
+						<h4 class="bold">Email:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="email" class="form-control border" id="emailid" placeholder="Mail-id" name="email" >	
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-3">
+						<h4 class="bold">Age:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="number" class="form-control border" id="age" placeholder="- -" name="Age" >	
+					</div>
+				</div>
+				<br>
+						<h4 class="bold">UG INFO</h4>
+				<br>	
+				<div class="row">
+					<div class="col-lg-3">
+						<h4>College:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="text" class="form-control border" id="ugcollege" placeholder="College-Name" name="college" >	
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-3">
+						<h4>Address:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="text" class="form-control border" id="ugaddress" placeholder="College-Address" name="college" >	
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-3">
+						<h4>Percentage:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="number" class="form-control border" id="ugper" placeholder="- - %" name="college" >	
+					</div>
+				</div>
+				<br>
+						<h4 class="bold text-center">YEARWISE</h4>
+
+				<br>
+				<div class="row">
+					<div class="col-lg-3">
+						<h4>1'st Yr:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="number" class="form-control border" id="ug1st" placeholder="- - %" name="college" >	
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-3">
+						<h4>2'nd Yr:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="number" class="form-control border" id="ug2nd" placeholder="- - %" name="college" >	
+					</div>
+				</div>
+				<br>
+
+				<div class="row">
+					<div class="col-lg-3">
+						<h4>3'rd Yr:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="number" class="form-control border" id="ug3rd" placeholder="- - %" name="college" >	
+					</div>
+				</div>
+				<br>
+
+				<div class="row">
+					<div class="col-lg-3">
+						<h4>4'th Yr:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="number" class="form-control border" id="ug4th" placeholder="- - %" name="college" >	
+					</div>
+				</div>
+				<br>
+				<h4 class="bold">PG INFO</h4>
+				<br>	
+				<div class="row">
+					<div class="col-lg-3">
+						<h4>College:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="text" class="form-control border" id="pgcollege" placeholder="College-Name" name="college" >	
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-3">
+						<h4>Address:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="text" class="form-control border" id="pgaddress" placeholder="College-Address" name="college" >	
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-3">
+						<h4>Percentage:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="number" class="form-control border" id="pgper" placeholder="- - %" name="college" >	
+					</div>
+				</div>
+				<br>
+						<h4 class="bold text-center">YEARWISE</h4>
+
+				<br>
+				<div class="row">
+					<div class="col-lg-3">
+						<h4>1'st Yr:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="number" class="form-control border" id="pg1st" placeholder="- - %" name="college" >	
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-3">
+						<h4>2'nd Yr:</h4>
+					</div>
+					<div class="col-lg-9">
+				       <input type="number" class="form-control border" id="pg2nd" placeholder="- - %" name="college" >	
+					</div>
+				</div>
+				<br>
+				<br>
+				<div class="row text-center">
+				  <button type="button" class="btn button "  onclick="fun()">submit</button>
+				</div>
+				<br>
+				<br>
+				<br>
+
+
+			</form>	
+		</div>
+		<div class="col-lg-3">		
+		</div>
+		
+	</div>
+	
+
+</div>	
+
+</body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script>
+  	function fun(){  
+  	 name = document.getElementById("name").value;
+  	 email = document.getElementById("emailid").value;
+  	 age = document.getElementById("age").value;
+  	 ugcollegename = document.getElementById("ugcollege").value;
+  	 addressug = document.getElementById("ugaddress").value;
+  	 percentageug = document.getElementById("ugper").value;
+  	 firstug = document.getElementById("ug1st").value;
+  	 secondug = document.getElementById("ug2nd").value;
+  	 thirdug = document.getElementById("ug3rd").value;
+  	 fourthug = document.getElementById("ug4th").value;
+  	 pgcollegename = document.getElementById("pgcollege").value;
+  	 addresspg = document.getElementById("pgaddress").value;
+  	 percentagepg = document.getElementById("pgper").value;
+  	 firstpg = document.getElementById("pg1st").value;
+  	 secondpg = document.getElementById("pg2nd").value;
+                 
+
+
+        var details={ 
+        	name:name,
+        	emailid:email,
+        	age:age,
+        	uginfo :{
+        	     ugcollege:ugcollegename,
+        	     ugaddress:addressug,
+        	     ugper:percentageug,
+        	        year :{
+        	             ug1st:firstug,
+        	             ug2nd:secondug,
+        	             ug3rd:thirdug,
+        	             ug4th:fourthug,
+        	            }
+        	       },
+        	pginfo :{
+             	pgcollege:pgcollegename,
+        	    pgaddress:addresspg,
+        	    pgper:percentagepg,
+        	        year :{
+        	             pg1st:firstpg,
+        	             pg2nd:secondpg,
+        	           
+        	            }
+        	       }
+        	
+             	}
+ console.log(details);
+
+            
+}
+  </script>
+</html>
